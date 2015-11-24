@@ -51,6 +51,11 @@ img#thumb:hover {
   margin-top: 60px;
 }
 
+.elBack {
+  position: relative;
+  top:20px;
+}
+
 @media (max-width: 475px) {
   footer {
     position: relative;
