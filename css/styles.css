@@ -17,3 +17,11 @@ p.intro-text {
 .modal-dialog {
   width: 750px;
 }
+
+#page-top > nav > div > div.collapse.navbar-collapse > ul > li > a {
+    color: white;
+}
+
+#page-top > nav > div > div.navbar-header > a > span > span {
+    color: white;
+}
