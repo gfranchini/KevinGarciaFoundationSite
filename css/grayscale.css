@@ -121,6 +121,12 @@ a:focus {
     background-color: rgba(255,255,255,.3);
 }
 
+.elDown {
+    text-align: center;
+    position: relative;
+    bottom: 10rem;
+}
+
 @media(min-width:767px) {
     .navbar {
         padding: 20px 0;
@@ -177,11 +183,57 @@ a:focus {
     }
 
     .intro .intro-body .brand-heading {
-        font-size: 50px;
+        font-size: 40px;
+        position: relative;
+        bottom: 4em;
     }
 
     .intro .intro-body .intro-text {
-        font-size: 25px;
+        font-size: 1.2em;
+        position: relative;
+        left: 14rem;
+    }
+}
+
+@media(min-width:960px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 30px;
+
+        position: relative;
+        bottom: 4em;
+        left: 5em;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 1.2em;
+        position: relative;
+        left: 14rem;
+    }
+}
+@media(min-width:990px) {
+    .intro {
+        height: 100%;
+        padding: 0;
+    }
+
+    .intro .intro-body .brand-heading {
+        font-size: 30px;
+        display: inline-block;
+        position: relative;
+        bottom: 4em;
+        left: 13em;
+    }
+
+    .intro .intro-body .intro-text {
+        font-size: 1.2em;
+        display: inline-block;
+        position: relative;
+        left: -1rem;
     }
 }
 
