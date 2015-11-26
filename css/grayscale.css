@@ -177,7 +177,7 @@ a:focus {
 }
 
 
-@media(max-width:459px) {
+@media(max-width:459  px) {
     .intro {
         height: 100%;
     }
@@ -191,7 +191,7 @@ a:focus {
 
     .intro .intro-body .intro-text {
         font-size: .9em;
-         display: inline-block;
+        display: inline-block;
         position: relative;
         left: 4.2rem;
     }

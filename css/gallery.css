@@ -33,6 +33,7 @@ a {
 
 img#thumb {
   width: 300px;
+  height: 300px;
 }
 
 img#thumb:hover {
