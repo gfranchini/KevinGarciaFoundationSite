@@ -25,3 +25,21 @@ p.intro-text {
 #page-top > nav > div > div.navbar-header > a > span > span {
     color: white;
 }
+
+
+#local_businesses {
+  margin-top: 150px;
+  margin-bottom: 100px;
+}
+
+.schools li {
+  list-style: none;
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
+
+.businesses li {
+  list-style: none;
+  font-size: 20px;
+  margin: 0 0 10px 0;
+}
